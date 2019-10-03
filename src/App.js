@@ -13,8 +13,7 @@ import './components/TodoComponents/Todo.css';
   class App extends React.Component {
     constructor() {
       super()
-      // State for our class component is one object,
-      // unlike split-up state when we use hooks
+      // State for our class component is one object, unlike split state w hooks
       this.state = {
         items: TodoList
       }
@@ -64,9 +63,14 @@ import './components/TodoComponents/Todo.css';
       return (
         <div className="App">
           <div className="header">
-            <h1>Todo List</h1>
+            <h1>Welcome to Your Todo List!</h1>
+            <br />
+            </div>
+            <div className="container">
+            <div className="input-box">
+            <br />
             <TodoForm addItem={this.addItem} />
-          </div>
+            </div>
   
           <div className="todo-list">
             {this.state.items.map(item => (
@@ -82,6 +86,7 @@ import './components/TodoComponents/Todo.css';
             </button>
           </div>
         </div>
+      </div>
       );
     }
   }
