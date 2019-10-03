@@ -1,6 +1,7 @@
 # React-Todo
 
 A stateful class component project in the form of a to do list. Even though hooks are gaining popularity among react developers, class components are going to be around for a long time. 
+Deployed here: https://elated-hugle-d59c4f.netlify.com
 
 ## Initializing the project.
 
@@ -32,9 +33,9 @@ A stateful class component project in the form of a to do list. Even though hook
 - The `id` field is a unique `Time Stamp` that will be assigned by `Date.now()`.
 
 `Clear Completed` button call your handler function that will filter out any todos that have the completed flag toggled to `true`.
-- **Now is the time to style** Take your time to make this an app that you can be proud of.
 
-#### Next Styling More and Data persist and Search
+
+#### Coming Next - Styling More and Data persist and Search/Edit
 
 - **Persist your data** in `window.localStorage()` hint: you may have to pass your data to a stringifier to get it to live inside the `localStorage()` of the browser. This will cause it to persist past the page refresh.
 
@@ -43,4 +44,3 @@ A stateful class component project in the form of a to do list. Even though hook
 - **Hosting** 
 
 Deployed here: https://elated-hugle-d59c4f.netlify.com
-
