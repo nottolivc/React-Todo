@@ -2,22 +2,22 @@
 // feel free to change this component.js into TodoList.js
 export default [
     {
-      name: "Check In",
+      name: "Finish Lectures",
       id: 1,
       completed: false
     },
     {
-      name: "Rx",
+      name: "Shop for Groceries",
       id: 2,
       completed: false
     },
     {
-      name: "Bank",
+      name: "Bank Deposit",
       id: 3,
       completed: false
     },
     {
-      name: "Pack",
+      name: "Crash after Netflix",
       id: 4,
       completed: false
     }

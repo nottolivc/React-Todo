@@ -66,7 +66,8 @@ import './components/TodoComponents/Todo.css';
             <h1>Welcome to Your Todo List!</h1>
             <br />
             </div>
-            <div className="container">
+          <div className="container">
+            
             <div className="input-box">
             <br />
             <TodoForm addItem={this.addItem} />
@@ -82,7 +83,7 @@ import './components/TodoComponents/Todo.css';
             ))}
   
             <button className="clear-btn" onClick={this.clearCompleted}>
-              Reset List
+              Clear Completed 
             </button>
           </div>
         </div>
