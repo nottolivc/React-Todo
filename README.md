@@ -16,12 +16,12 @@ Deployed here: https://elated-hugle-d59c4f.netlify.com
 ```js
 [
   {
-    task: 'Organize Garage',
+    task: 'Organize Github',
     id: 1528817077286,
     completed: false
   },
   {
-    task: 'Bake Cookies',
+    task: 'Hit the Gym',
     id: 1528817084358,
     completed: false
   }
