@@ -34,13 +34,6 @@ Deployed here: https://elated-hugle-d59c4f.netlify.com
 
 `Clear Completed` button call your handler function that will filter out any todos that have the completed flag toggled to `true`.
 
-
-#### Coming Next - Styling More and Data persist and Search/Edit
-
-- **Persist your data** in `window.localStorage()` hint: you may have to pass your data to a stringifier to get it to live inside the `localStorage()` of the browser. This will cause it to persist past the page refresh.
-
-- **Search Functionality** Add a input bar that allows you to search through your tasks and only show the ones that match the search input.
-
 - **Hosting** 
 
 Deployed here: https://elated-hugle-d59c4f.netlify.com
